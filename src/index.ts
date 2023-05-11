@@ -1,7 +1,7 @@
-import { add as addTwo, subtracts } from "./module"
-const add = (input: number, input2:number) : number => {
-    return input + input2
-}
+import { add } from "./module";
+import { multiplication } from "./multiplication";
 
-console.log(addTwo(12, 34));
-console.log(subtracts(34,23));
+export default {
+    add,
+    multiplication
+}
